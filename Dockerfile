@@ -11,4 +11,4 @@ RUN apk add --no-cache python3 && \
 # install aws cli
 RUN pip3 install awscli --upgrade --user
 
-ENV PATH=$PATH:~/.local/bin
+ENV PATH=$PATH:/root/.local/bin
